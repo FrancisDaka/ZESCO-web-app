@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration-ZESCO</title>
+ <link rel="stylesheet" type="text/css" href=/css/styles.css>
+</head>
+<body>
+<div id="welcome" >
+	<div id="text">
+		<h1>User Registration </h1>
+	</div>
+	
+	
+<!-- 	<h3><a th:href="@{/list_users}">List All Users</a></h3> -->
+
+	
+</div>
+
+<div id="regForm">
+<form th:action="@{/process_register}" th:object="${user}" method="post"
+style="max-width: 600px; margin: 0 auto" >
+	<div class="m-3">
+	
+	<div class = "form-group row">
+		<label class="col-4 col-form-label">First Name:</label>
+		<div  class="col-8" > <input type="text" th:field="*{firstName}" class="form-control" required maxlength="20"/></div>		
+	</div>
+	<div class = "form-group row">
+		<label class="col-4 col-form-label">Last Name:</label>
+		<div  class="col-8" > <input type="text" th:field="*{lastName}" class="form-control" required maxlength="20"/></div>		
+	</div>
+	<div class = "form-group row">
+		<label class="col-4 col-form-label">E-mail:</label>
+		<div  class="col-8" > <input type="email" th:field="*{email}" class="form-control" required/></div>		
+	</div>
+	<div class = "form-group row">
+		<label class="col-4 col-form-label">Password:</label>
+		<div  class="col-8" > <input type="password"  class="form-control"  th:field="*{password}"required  maxlength="10" />
+		</div>		
+	</div>
+	</div>
+	
+	<div>
+		<button type="submit" class="btn btn-primary">Sign Up</button> 
+	</div>
+	
+	</form></div>
+
+</body>
+</html>
