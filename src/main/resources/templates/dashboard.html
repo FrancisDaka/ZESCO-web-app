@@ -14,6 +14,7 @@
 
 
 
+
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">Home</a>
@@ -23,18 +24,28 @@
    <a th:href="@{/logout}">Logout</a>
 </div>
 
+<video autoplay muted loop id="myVideo">
+  <source src="zescotrans.mp4" type="video/mp4">
+</video>
+
 <div id="main" class= "container">
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
  <div id="username">
+ 
 		<div>
+		
 				<p>
+				
 				Welcome <b id="name">[[${#request.userPrincipal.principal.fullName}]] </b>
 				</p>
+				
 			
 		</div>		
 		
 </div>
 </div>
+
 
 	
 
@@ -50,7 +61,7 @@ function closeNav() {
 }
 </script>
 
-<img id= "logo" src="/zescologo.png" alt="Zesco_Logo" width="200px" height="200px">
+<!-- <img id= "logo" src="/zescologo.png" alt="Zesco_Logo" width="200px" height="200px"> -->
 <div id="welcomeText">
   <h2>Welcome to the Zesco Issue Tracking <br> Web App App</h2>
 </div>
