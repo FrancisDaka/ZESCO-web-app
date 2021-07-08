@@ -4,7 +4,7 @@
 #welcome{
 	
 	text-align:center;
-	font-family: TimesNewRroman;
+	font-family: arial;
 	height: 15%;
   width: 100%;
   position: fixed ;
@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: orange;
+	background-color: green;
 	
 	
 }
 #register{
 	
-	font-family: TimesNewRoman;
-	background-color: orange;
+	font-family: arial;
+	background-color: green;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: green;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -69,8 +69,7 @@
 
 
 body {
-  font-family: "TimesNewRoman", monospace;
-  background: green;
+  font-family: "arial", monospace;
 }
 
 .sidenav {
@@ -191,7 +190,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: orange;
+  background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
   margin: 0px 0;
