@@ -71,6 +71,14 @@
 body {
   font-family: "arial", monospace;
   background: #cbc693;
+  
+}
+#body2 {
+  font-family: "arial", monospace;
+  background-image: url('/zescobackground.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ 	background-attachment: fixed;
 }
 
 .sidenav {
@@ -134,7 +142,7 @@ body {
 	  
   position: fixed;
   z-index: 1;
-  left: 65%;
+  left: 40%;
   font-size: 30px;
   top: -2%;
   overflow-x: hidden;
@@ -154,6 +162,7 @@ body {
   font-size: 30px;
   top: 10%;
   padding-top: 0px;
+  color:white;
 }
 
 #form{
@@ -232,6 +241,7 @@ button:hover {
 	top: 62%;
 	position: fixed;
 	left: 40%;
+	 color:white;
 }
 #availEquip{
 	z-index: 2;
@@ -269,8 +279,8 @@ button:hover {
 	left: 30%;
 	background-color: #ede7f6;
   padding: 25px;
-  color: #5870cb;
-   border: 5px solid #5870cb;
+  color: #000000;
+   border: 5px solid #000000;
    text-align: center;
 }
 
