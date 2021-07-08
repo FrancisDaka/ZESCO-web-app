@@ -5,7 +5,7 @@
 <title>Registration-ZESCO</title>
  <link rel="stylesheet" type="text/css" href=/css/styles.css>
 </head>
-<body>
+<body >
 <div id="welcome" >
 	<div id="text">
 		<h1>User Registration </h1>
@@ -21,7 +21,14 @@
 <form th:action="@{/process_register}" th:object="${user}" method="post"
 style="max-width: 600px; margin: 0 auto" >
 	<div class="m-3">
-	
+	<div class ="form-group row">
+	 <label for="roles">Role:</label>
+	<select>
+		<option>Inspector</option>
+		<option>Supervisor</option>
+	</select>
+	</div>
+	<br>
 	<div class = "form-group row">
 		<label class="col-4 col-form-label">First Name:</label>
 		<div  class="col-8" > <input type="text" th:field="*{firstName}" class="form-control" required maxlength="20"/></div>		

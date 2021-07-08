@@ -4,8 +4,8 @@
 #welcome{
 	
 	text-align:center;
-	font-family: verdana;
-	height: 14%;
+	font-family: TimesNewRoman;
+	height: 15%;
   width: 100%;
   position: fixed ;
   z-index: 1;
@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: #00701a;
+	background-color: #1faa00;
 	
 	
 }
 #register{
 	
-	font-family: verdana;
-	background-color: #00701a;
+	font-family: Times New Roman;
+	background-color: #1faa00;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #43a047;
+  background-color: #1faa00;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -69,7 +69,8 @@
 
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "TimesNewRoman", sans-serif;
+  background: white;
 }
 
 .sidenav {
@@ -79,7 +80,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #43a047;
+  background-color: #1faa00;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -123,7 +124,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #43a047;
+  background-color: #1faa00;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -318,8 +319,6 @@ th{
 	padding-top: 10%;
 	top: 75%;
 }
-
-
 	
 }
 

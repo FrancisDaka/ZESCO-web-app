@@ -2,6 +2,8 @@ package com.zesco;
 
 import java.util.List;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -13,6 +15,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class AppController {
+	
+	private final UserService userService;
 	
 	@Autowired
 	private UserRepository repo;
@@ -44,6 +48,7 @@ public class AppController {
 		repo.save(user);
 		
 		return "register_success";
+		
 	}
 	
 	@GetMapping("list_users")
@@ -108,5 +113,22 @@ public class AppController {
 		
 	}
 	
+	@Autowired
+	public AppController(UserService userService) {
+		
+		this.userService= userService;
+	}
+	
+
+	@GetMapping("/process_register")
+	public String returnError(User user) {
+		
+		if (userService.userExists(user.getEmail())) {
+			return "error";
+		}
+		
+		return "index";
+		
+	}
 	
 }
