@@ -4,7 +4,7 @@
 #welcome{
 	
 	text-align:center;
-	font-family: verdana;
+	font-family: tahoma;
 	height: 15%;
   width: 100%;
   position: fixed ;
@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: #04AA6D;
+	background-color: #ffa000;
 	
 	
 }
 #register{
 	
-	font-family: Times New Roman;
-	background-color: #04AA6D;
+	font-family: tahoma;
+	background-color: #ffa000;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #04AA6D;
+  background-color: #ffa000;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -69,7 +69,7 @@
 
 
 body {
-  font-family: "TimesNewRoman", sans-serif;
+  font-family: "tahoma", sans-serif;
   background: white;
 }
 
@@ -80,7 +80,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #04AA6D;
+  background-color: #ffa000;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -124,7 +124,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #04AA6D;
+  background-color: #ffa000;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -279,7 +279,7 @@ table{
    height:160px;
    display:inline-block;
    width: 500px;
-   font-family: arial, sans-serif;
+   font-family: tahoma, sans-serif;
   border-collapse: collapse;
 }
 td, th {
@@ -297,7 +297,7 @@ th{
 	#welcome{
 	
 	text-align:center;
-	font-family: verdana;
+	font-family: tahoma;
 	height: 5%;
   width: 100%;
   position: fixed ;
