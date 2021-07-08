@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: #ffa000;
+	background-color: #ffeb3b;
 	
 	
 }
 #register{
 	
 	font-family: tahoma;
-	background-color: #ffa000;
+	background-color: #ffeb3b;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffa000;
+  background-color: #ffeb3b;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -80,7 +80,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffa000;
+  background-color: #ffeb3b;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -124,7 +124,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffa000;
+  background-color: #ffeb3b;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -191,7 +191,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #ba000d;
   color: white;
   padding: 14px 20px;
   margin: 0px 0;
@@ -208,7 +208,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: #1e88e5;
 }
 
 /* Float cancel and signup buttons and add an equal width */
