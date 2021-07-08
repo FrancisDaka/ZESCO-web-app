@@ -1,5 +1,10 @@
 @charset "ISO-8859-1";
 
+:root {
+  --backg: green;
+  --orange: orange;
+}
+
 * {box-sizing: border-box}
 #welcome{
 	
@@ -14,14 +19,14 @@
 
   transition: 1s;
   padding-top: 10px;
-	background-color: orange;
+	background-color: var(--backg);
 	
 	
 }
 #register{
 	
 	font-family: verdana;
-	background-color: orange;
+	background-color: var(--backg);;
 	
 	
 }
@@ -46,7 +51,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: var(--backg);;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -80,7 +85,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: var(--backg);;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -121,10 +126,10 @@
 	  height: 12%;
   width: 100%;
   position: fixed ;
-  z-index: 1;
+  z-index: 0;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: var(--backg);
  
   transition: 0.5s;
   padding-top: 10px;
