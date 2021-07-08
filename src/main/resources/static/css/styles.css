@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: green;
+	background-color: #fbc02d;
 	
 	
 }
 #register{
 	
 	font-family: arial;
-	background-color: green;
+	background-color: #fbc02d;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #fbc02d;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -70,7 +70,7 @@
 
 body {
   font-family: "arial", monospace;
-  background: #e8eaf6;
+  background: #cbc693;
 }
 
 .sidenav {
@@ -80,7 +80,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #fbc02d;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -124,7 +124,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #fbc02d;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
