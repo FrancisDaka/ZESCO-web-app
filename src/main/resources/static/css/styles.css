@@ -14,14 +14,14 @@
   overflow-x: hidden;
   transition: 1s;
   padding-top: 10px;
-	background-color: #1faa00;
+	background-color: orange;
 	
 	
 }
 #register{
 	
 	font-family: Times New Roman;
-	background-color: #1faa00;
+	background-color: orange;
 	
 	
 }
@@ -46,7 +46,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1faa00;
+  background-color: orange;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
@@ -80,7 +80,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1faa00;
+  background-color: orange;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -124,7 +124,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1faa00;
+  background-color: orange;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 10px;
