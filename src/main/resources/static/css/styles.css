@@ -74,9 +74,12 @@
 
 
 
-
-
-
+body{
+	background-image: url('/zescpye.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
+}
 
 .sidenav {
   height: 100%;
