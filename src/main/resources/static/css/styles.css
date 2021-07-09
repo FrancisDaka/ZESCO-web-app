@@ -75,10 +75,7 @@
 
 
 body{
-	background-image: url('/zescpye.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover
+	background: white;
 }
 
 .sidenav {
@@ -284,22 +281,112 @@ button:hover {
    text-align: center;
 }
 
-table{
-	overflow-y:scroll;
-   height:160px;
-   display:inline-block;
-   width: 500px;
-   font-family: arial, sans-serif;
-  border-collapse: collapse;
-}
+/* table{ */
+/* 	overflow-y:scroll; */
+/*    height:160px; */
+/*    display:inline-block; */
+/*    width: 500px; */
+/*    font-family: arial, sans-serif; */
+/*   border-collapse: collapse; */
+/* } */
+/* td, th { */
+/*   border: 1px solid #000000; */
+/*   text-align: left; */
+/*   padding: 8px; */
+/*   size: 100px; */
+/* } */
+/* th{ */
+/* 	background: #dddddd; */
+/* } */
+
 td, th {
-  border: 1px solid #000000;
-  text-align: left;
-  padding: 8px;
-  size: 100px;
+    text-align: center;
+    padding: 8px;
 }
-th{
-	background: #dddddd;
+
+td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+ tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    table{
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+   thead th:last-child{
+        border-bottom: none;
+    }
+   thead {
+        float: left;
+    }
+  tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+     td, th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+   tbody tr:nth-child(odd) {
+        background: none;
+    }
+    tr:nth-child(even) {
+        background: transparent;
+    }
+    tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+   tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+   tbody td {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:1024px) {

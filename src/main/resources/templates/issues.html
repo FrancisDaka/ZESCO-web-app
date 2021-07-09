@@ -58,9 +58,10 @@ th:object="${issues}"  style="border:1px solid #ccc"  >
  <div >
 
 
-  <label for="equipment"><b>Equipment:</b></label>
+  <label for="equipment">Equipment:</label>
   
-        <input list="availableEquipments" placeholder="Click here to see available equipment" style="width:285px " th:field="*{equipment}">
+        <input list="availableEquipments" placeholder="Click here to see available equipment" 
+        style="width:285px " th:field="*{equipment}" required>
         <datalist id="availableEquipments">
             <option th:each="users : ${listEquipments}"
              th:value="${users.name}"
@@ -95,7 +96,7 @@ th:object="${issues}"  style="border:1px solid #ccc"  >
 </div>
 
 <h2 id="availableEquip">Available Issues </h2>
-<div id="availEquip">
+<div class="table-wrapper" id="availEquip">
 	<table>
 	<thead>
 		<tr>
@@ -107,7 +108,7 @@ th:object="${issues}"  style="border:1px solid #ccc"  >
 	</thead>
 	
 	<tbody>
-		<tr th:each="issues: ${listIssues}">
+		<tr th:each="issues: ${listIssues}" >
 			<td th:text="${issues.id}">Equipments No</td>
 			<td th:text="${issues.equipment}">Equipments Name</td>
 			<td th:text="${issues.description}">Equipments Description</td>
