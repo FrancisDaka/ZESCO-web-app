@@ -71,7 +71,10 @@
 body {
   font-family: "timeNewRoman", sans-serif;
   background: orange;
-
+background-image: url('pylonss.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
 }
 
 
